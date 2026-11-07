@@ -1,0 +1,14 @@
+{
+  "engine": "yrs",
+  "first_keystroke_ms": 0.178417,
+  "keystroke_us": {
+    "count": 5000,
+    "max": 117.084,
+    "p50": 48.667,
+    "p99": 87.459,
+    "p999": 104.584
+  },
+  "length_utf16": 1001776,
+  "load_ms": 20.955541,
+  "read_text_ms": 0.24995799999999999
+}

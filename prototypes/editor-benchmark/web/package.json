@@ -1,0 +1,21 @@
+{
+  "name": "write-editor-benchmark-web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/editor.js --bundle --minify --format=iife --target=safari17 --outfile=dist/editor.js --loader:.woff2=dataurl --loader:.woff=empty --loader:.ttf=empty && cp src/index.html dist/index.html"
+  },
+  "dependencies": {
+    "@codemirror/commands": "6.8.1",
+    "@codemirror/lang-markdown": "6.3.4",
+    "@codemirror/language": "6.11.3",
+    "@codemirror/state": "6.5.2",
+    "@codemirror/view": "6.38.1",
+    "katex": "0.16.22",
+    "mermaid": "11.9.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.8"
+  }
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Web editor</title>
+<link rel="stylesheet" href="editor.css">
+<style>
+html, body, #editor { height: 100%; margin: 0; }
+.cm-editor { height: 100%; font-family: -apple-system, sans-serif; font-size: 15px; }
+.cm-scroller { overflow: auto; line-height: 1.5; }
+.cm-content { max-width: 900px; margin: 0 auto; }
+.rich-block { padding: 8px 0; }
+.rich-block table { border-collapse: collapse; }
+.rich-block th, .rich-block td { border: 1px solid #ccc; padding: 6px 12px; text-align: left; }
+.rich-block th { background: #f0f0f0; }
+</style>
+</head>
+<body>
+<div id="editor"></div>
+<script src="editor.js"></script>
+</body>
+</html>

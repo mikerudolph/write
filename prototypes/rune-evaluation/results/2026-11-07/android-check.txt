@@ -1,0 +1,8 @@
+   Compiling blake3 v1.8.7
+warning: blake3@1.8.7: Compiler family detection failed due to error: ToolNotFound: failed to find tool "aarch64-linux-android-clang": No such file or directory (os error 2)
+error: failed to run custom build command for `blake3 v1.8.7`
+  process didn't exit successfully: `<rune-checkout>/src/target/debug/build/blake3-fc9eddf6823a4c25/build-script-build` (exit status: 1)
+  cargo::rustc-check-cfg=cfg(blake3_sse2_ffi, values(none()))
+  cargo::rustc-check-cfg=cfg(blake3_sse2_rust, values(none()))
+  cargo::rustc-check-cfg=cfg(blake3_sse41_ffi, values(none()))
+  cargo::rustc-check-cfg=cfg(blake3_sse41_rust, values(none()))

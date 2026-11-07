@@ -1,0 +1,52 @@
+NOTE size=5k bytes=8893 lines=142
+MEMORY size=5k heap_open_mb=5.65 heap_50_keys_mb=7.14 heap_200_keys_mb=7.28 footprint_open_mb=124.03 footprint_50_keys_mb=126.23 footprint_200_keys_mb=126.92
+METRIC size=5k case=type_start metric=cpu_ms median=2.2394 p95=4.8951 max=5.0592 n=40
+METRIC size=5k case=type_mid metric=cpu_ms median=2.9298 p95=4.5118 max=4.8688 n=40
+METRIC size=5k case=type_end metric=cpu_ms median=2.2112 p95=3.2213 max=4.1180 n=40
+METRIC size=5k case=enter_mid metric=cpu_ms median=2.0810 p95=2.8960 max=4.7332 n=40
+METRIC size=5k case=backspace_mid metric=cpu_ms median=2.4932 p95=4.1495 max=4.9537 n=40
+METRIC size=5k case=paste_2k metric=cpu_ms median=2.5869 p95=3.1342 max=3.2937 n=20
+METRIC size=5k case=undo metric=cpu_ms median=2.2158 p95=2.7288 max=4.2128 n=20
+UNDO size=5k edits=100 undo_steps_kept=53
+SCROLL size=5k frames=29 travel=3284
+METRIC size=5k case=scroll metric=cpu_ms median=0.1298 p95=0.2198 max=0.2383 n=29
+METRIC size=5k case=down metric=cpu_ms median=0.1140 p95=0.2210 max=0.2506 n=120
+METRIC size=5k case=cmd_down metric=cpu_ms median=0.2305 p95=0.2628 max=0.5062 n=15
+METRIC size=5k case=click metric=cpu_ms median=0.1414 p95=0.2281 max=0.2328 n=30
+NOTE size=50k bytes=54047 lines=861
+MEMORY size=50k heap_open_mb=9.86 heap_50_keys_mb=13.26 heap_200_keys_mb=13.28 footprint_open_mb=2.34 footprint_50_keys_mb=8.56 footprint_200_keys_mb=-36.89
+METRIC size=50k case=type_start metric=cpu_ms median=11.9162 p95=12.8167 max=13.2738 n=40
+METRIC size=50k case=type_mid metric=cpu_ms median=12.3322 p95=16.8498 max=17.7349 n=40
+METRIC size=50k case=type_end metric=cpu_ms median=12.7226 p95=17.5144 max=18.5057 n=40
+METRIC size=50k case=enter_mid metric=cpu_ms median=11.6609 p95=15.9180 max=24.0887 n=40
+METRIC size=50k case=backspace_mid metric=cpu_ms median=11.2157 p95=11.6113 max=11.7851 n=40
+METRIC size=50k case=paste_2k metric=cpu_ms median=11.6803 p95=12.4059 max=12.9325 n=20
+METRIC size=50k case=undo metric=cpu_ms median=11.2558 p95=11.8033 max=15.6862 n=20
+UNDO size=50k edits=100 undo_steps_kept=9
+SCROLL size=50k frames=202 travel=24052
+METRIC size=50k case=scroll metric=cpu_ms median=0.0886 p95=0.1171 max=0.2240 n=202
+METRIC size=50k case=down metric=cpu_ms median=0.1238 p95=0.1488 max=0.1917 n=120
+METRIC size=50k case=cmd_down metric=cpu_ms median=0.2716 p95=0.2945 max=0.2962 n=15
+METRIC size=50k case=click metric=cpu_ms median=0.1407 p95=0.1530 max=0.2275 n=30
+NOTE size=200k bytes=206525 lines=3289
+MEMORY size=200k heap_open_mb=24.89 heap_50_keys_mb=34.97 heap_200_keys_mb=35.02 footprint_open_mb=12.27 footprint_50_keys_mb=8.73 footprint_200_keys_mb=-29.41
+METRIC size=200k case=type_start metric=cpu_ms median=43.0031 p95=48.2191 max=49.5047 n=40
+METRIC size=200k case=type_mid metric=cpu_ms median=42.2533 p95=49.7285 max=60.3213 n=40
+METRIC size=200k case=type_end metric=cpu_ms median=42.2640 p95=43.1695 max=43.8332 n=40
+METRIC size=200k case=enter_mid metric=cpu_ms median=42.2593 p95=43.0485 max=45.2318 n=40
+METRIC size=200k case=backspace_mid metric=cpu_ms median=42.5276 p95=44.4051 max=45.7288 n=40
+METRIC size=200k case=paste_2k metric=cpu_ms median=42.6458 p95=43.7535 max=44.0181 n=20
+METRIC size=200k case=undo metric=cpu_ms median=42.2230 p95=43.2048 max=45.9638 n=20
+UNDO size=200k edits=100 undo_steps_kept=2
+SCROLL size=200k frames=785 travel=94012
+METRIC size=200k case=scroll metric=cpu_ms median=0.0767 p95=0.1031 max=0.2345 n=785
+METRIC size=200k case=down metric=cpu_ms median=0.2557 p95=0.2945 max=0.3140 n=120
+METRIC size=200k case=cmd_down metric=cpu_ms median=0.4483 p95=0.4702 max=0.4971 n=15
+METRIC size=200k case=click metric=cpu_ms median=0.2655 p95=0.3085 max=0.3500 n=30
+NOTE size=1000k bytes=1026389 lines=16613
+MEMORY size=1000k heap_open_mb=104.48 heap_50_keys_mb=150.50 heap_200_keys_mb=150.67 footprint_open_mb=72.91 footprint_50_keys_mb=87.67 footprint_200_keys_mb=51.36
+METRIC size=1000k case=type_start metric=cpu_ms median=211.2566 p95=215.0359 max=230.0468 n=40
+METRIC size=1000k case=type_mid metric=cpu_ms median=211.0954 p95=217.0450 max=229.4341 n=40
+METRIC size=1000k case=type_end metric=cpu_ms median=211.3651 p95=216.8426 max=237.5777 n=40
+METRIC size=1000k case=enter_mid metric=cpu_ms median=211.9030 p95=216.5318 max=223.1954 n=40
+METRIC size=1000k case=backspace_mid metric=cpu_ms median=211.3977 p95=214.4384 max=217.7885 n=40

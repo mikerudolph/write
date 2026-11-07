@@ -1,0 +1,34 @@
+{
+  "apply_ms": {
+    "count": 5505,
+    "max": 0.496875,
+    "p50": 0.00725,
+    "p99": 0.016209,
+    "p999": 0.059791
+  },
+  "bulk_snapshot_bytes": 51732,
+  "characters": 1001776,
+  "engine": "loro",
+  "flush_ms": {
+    "count": 5505,
+    "max": 0.24787499999999998,
+    "p50": 0.006667,
+    "p99": 0.014333,
+    "p999": 0.06691599999999999
+  },
+  "keystroke_us": {
+    "count": 1051865,
+    "max": 1311.542,
+    "p50": 0.167,
+    "p99": 0.792,
+    "p999": 1.625
+  },
+  "largest_file": 381,
+  "snapshot_bytes": 682075,
+  "snapshot_ms": 12.274666999999999,
+  "text_bytes": 1018122,
+  "total_ms": 393.770667,
+  "trimmed_snapshot_bytes": 26240,
+  "update_bytes": 2027763,
+  "update_files": 5505
+}

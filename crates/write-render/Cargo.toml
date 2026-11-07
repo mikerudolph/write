@@ -1,0 +1,13 @@
+[package]
+name = "write-render"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+mermaid-rs-renderer = { version = "0.3.1", default-features = false }
+ratex-layout = "0.1.15"
+ratex-parser = "0.1.15"
+ratex-svg = { version = "0.1.15", features = ["embed-fonts"] }
+ratex-types = "0.1.15"
+resvg = "0.47"

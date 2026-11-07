@@ -1,0 +1,24 @@
+NOTE size=200k bytes=206525 lines=3289
+MEMORY size=200k heap_open_mb=20.73 heap_50_keys_mb=21.27 heap_200_keys_mb=22.04 footprint_open_mb=140.61 footprint_50_keys_mb=143.13 footprint_200_keys_mb=144.39
+METRIC size=200k case=type_start metric=cpu_ms median=1.1594 p95=1.1943 max=1.1995 n=40
+METRIC size=200k case=type_mid metric=cpu_ms median=1.2560 p95=1.3607 max=1.5430 n=40
+METRIC size=200k case=type_end metric=cpu_ms median=1.1348 p95=1.1532 max=1.1791 n=40
+METRIC size=200k case=enter_mid metric=cpu_ms median=1.3761 p95=1.4436 max=1.4734 n=40
+METRIC size=200k case=backspace_mid metric=cpu_ms median=1.2021 p95=1.3090 max=1.3899 n=40
+METRIC size=200k case=paste_2k metric=cpu_ms median=1.8699 p95=1.9696 max=1.9763 n=20
+METRIC size=200k case=undo metric=cpu_ms median=1.3217 p95=1.3828 max=1.4971 n=20
+UNDO size=200k edits=100 undo_steps_kept=100
+SCROLL size=200k frames=785 travel=94012
+METRIC size=200k case=scroll metric=cpu_ms median=0.1463 p95=0.1662 max=0.6364 n=785
+NOTE size=1000k bytes=1026389 lines=16613
+MEMORY size=1000k heap_open_mb=89.61 heap_50_keys_mb=91.28 heap_200_keys_mb=96.52 footprint_open_mb=61.11 footprint_50_keys_mb=72.28 footprint_200_keys_mb=77.69
+METRIC size=1000k case=type_start metric=cpu_ms median=7.1383 p95=7.6575 max=8.1368 n=40
+METRIC size=1000k case=type_mid metric=cpu_ms median=7.4445 p95=9.2265 max=10.3384 n=40
+METRIC size=1000k case=type_end metric=cpu_ms median=7.2390 p95=7.8190 max=7.9887 n=40
+METRIC size=1000k case=enter_mid metric=cpu_ms median=8.3169 p95=8.9136 max=9.0090 n=40
+METRIC size=1000k case=backspace_mid metric=cpu_ms median=7.0820 p95=8.1143 max=8.3215 n=40
+METRIC size=1000k case=paste_2k metric=cpu_ms median=8.8337 p95=9.0840 max=9.1195 n=20
+METRIC size=1000k case=undo metric=cpu_ms median=8.1919 p95=8.4812 max=8.7264 n=20
+UNDO size=1000k edits=100 undo_steps_kept=100
+SCROLL size=1000k frames=3964 travel=475558
+METRIC size=1000k case=scroll metric=cpu_ms median=0.5345 p95=0.6988 max=1.5272 n=3964

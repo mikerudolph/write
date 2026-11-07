@@ -1,0 +1,34 @@
+{
+  "apply_ms": {
+    "count": 5505,
+    "max": 0.282333,
+    "p50": 0.028291,
+    "p99": 0.042166,
+    "p999": 0.078875
+  },
+  "bulk_snapshot_bytes": 1018137,
+  "characters": 1001776,
+  "engine": "yrs",
+  "flush_ms": {
+    "count": 5505,
+    "max": 0.515208,
+    "p50": 0.155667,
+    "p99": 0.181583,
+    "p999": 0.327083
+  },
+  "keystroke_us": {
+    "count": 1051865,
+    "max": 28032.834,
+    "p50": 182.834,
+    "p99": 467.5,
+    "p999": 1210.042
+  },
+  "largest_file": 1405,
+  "snapshot_bytes": 1817201,
+  "snapshot_ms": 3.9443330000000003,
+  "text_bytes": 1018122,
+  "total_ms": 211165.98500000002,
+  "trimmed_snapshot_bytes": null,
+  "update_bytes": 7617421,
+  "update_files": 5505
+}

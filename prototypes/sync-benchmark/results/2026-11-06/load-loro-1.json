@@ -1,0 +1,14 @@
+{
+  "engine": "loro",
+  "first_keystroke_ms": 831.574042,
+  "keystroke_us": {
+    "count": 5000,
+    "max": 6.542,
+    "p50": 0.167,
+    "p99": 0.667,
+    "p999": 3.833
+  },
+  "length_utf16": 1001776,
+  "load_ms": 1.536292,
+  "read_text_ms": 0.060584
+}

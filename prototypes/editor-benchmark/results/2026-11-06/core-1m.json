@@ -1,0 +1,26 @@
+{
+  "blocks": 4104,
+  "bytes": 1018122,
+  "failures": {},
+  "first_render_with_font_load_ms": 92.181917,
+  "full_parse_p50_ms": 3.032125,
+  "inline_spans_p50_us": 1.375,
+  "inline_spans_p95_us": 2.417,
+  "renders": {
+    "math": {
+      "count": 446,
+      "p50_ms": 0.644792,
+      "p95_ms": 0.708458
+    },
+    "mermaid": {
+      "count": 89,
+      "p50_ms": 5.297625,
+      "p95_ms": 20.346166
+    },
+    "table": {
+      "count": 446,
+      "p50_ms": 3.069334,
+      "p95_ms": 3.4250000000000003
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "editor" : "web",
+  "jump_to_end_ms" : 8,
+  "load" : {
+    "first_paint_ms" : 393.21800000000002,
+    "from_launch_ms" : 484.89041700000001,
+    "page_ready_ms" : 253.562209,
+    "parse_ms" : 9.9805829999999993,
+    "read_ms" : 1.0945
+  },
+  "memory_after_load_mb" : 274.70628356933594,
+  "memory_after_scroll_mb" : 649.22250366210938,
+  "scroll" : {
+    "final_y" : 24000,
+    "frame_ms" : {
+      "count" : 600,
+      "max" : 57.000000000003638,
+      "p50" : 17,
+      "p95" : 19,
+      "p99" : 29
+    },
+    "hitches_over_25ms" : 11
+  },
+  "selection" : {
+    "copyMatches" : true,
+    "replaced" : true,
+    "restored" : true,
+    "richBlocksAfterUndo" : 3,
+    "richBlocksBefore" : 3
+  },
+  "typing" : {
+    "end" : {
+      "inserted" : 200,
+      "place_ms" : 34.146124999999998,
+      "timeouts" : 0,
+      "to_frame_ms" : {
+        "count" : 200,
+        "max" : 25.030792000000002,
+        "p50" : 8.6940419999999996,
+        "p95" : 11.385084000000001,
+        "p99" : 13.704083000000001
+      }
+    },
+    "middle" : {
+      "inserted" : 200,
+      "place_ms" : 47.518957999999998,
+      "timeouts" : 0,
+      "to_frame_ms" : {
+        "count" : 200,
+        "max" : 29.870708,
+        "p50" : 8.5690000000000008,
+        "p95" : 11.226832999999999,
+        "p99" : 14.720708999999999
+      }
+    },
+    "start" : {
+      "inserted" : 200,
+      "place_ms" : 20.916250000000002,
+      "timeouts" : 0,
+      "to_frame_ms" : {
+        "count" : 200,
+        "max" : 22.346125000000001,
+        "p50" : 9.8896660000000001,
+        "p95" : 13.125916999999999,
+        "p99" : 17.889375000000001
+      }
+    }
+  },
+  "web_stats" : {
+    "diagramFailures" : 0,
+    "diagramMaxMs" : 39,
+    "diagrams" : 6,
+    "diagramTotalMs" : 129,
+    "longTaskMaxMs" : 0,
+    "longTasks" : 0
+  },
+  "webkit_processes" : 3
+}

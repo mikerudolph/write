@@ -1,0 +1,99 @@
+{
+  "editor" : "textkit",
+  "jump_to_end_ms" : 18.112625000000001,
+  "load" : {
+    "build_ms" : 61.389834,
+    "display_ms" : 187.96491599999999,
+    "first_paint_ms" : 273.17258299999997,
+    "from_launch_ms" : 334.779833,
+    "parse_ms" : 9.2426659999999998,
+    "read_ms" : 1.0852919999999999
+  },
+  "memory_after_load_mb" : 122.17285919189453,
+  "memory_after_scroll_mb" : 126.70420074462891,
+  "rich_blocks_failed" : 0,
+  "rich_blocks_rendered" : 70,
+  "rich_render_ms" : {
+    "count" : 70,
+    "max" : 152.35287500000001,
+    "p50" : 4.586792,
+    "p95" : 8.3268339999999998,
+    "p99" : 31.721667
+  },
+  "scroll" : {
+    "final_y" : 24000,
+    "frame_ms" : {
+      "count" : 600,
+      "max" : 35.4375,
+      "p50" : 16.664916000000002,
+      "p95" : 16.807791999999999,
+      "p99" : 17.109332999999999
+    },
+    "hitches_over_25ms" : 1
+  },
+  "selection" : {
+    "attachments_in_range" : 1,
+    "copy_matches_source" : true,
+    "first_difference" : "",
+    "replace_works" : true,
+    "rich_blocks_after_undo" : 3,
+    "undo_restores" : true
+  },
+  "textkit2_retained" : true,
+  "typing" : {
+    "end" : {
+      "inserted" : 200,
+      "place_ms" : 48.552624999999999,
+      "processing_ms" : {
+        "count" : 200,
+        "max" : 14.124625,
+        "p50" : 10.727542,
+        "p95" : 12.897500000000001,
+        "p99" : 13.646334
+      },
+      "to_frame_ms" : {
+        "count" : 200,
+        "max" : 19.127375000000001,
+        "p50" : 12.179209,
+        "p95" : 16.046042,
+        "p99" : 16.475000000000001
+      }
+    },
+    "middle" : {
+      "inserted" : 200,
+      "place_ms" : 27.550208000000001,
+      "processing_ms" : {
+        "count" : 200,
+        "max" : 14.754916,
+        "p50" : 10.279375,
+        "p95" : 13.528041999999999,
+        "p99" : 14.246791999999999
+      },
+      "to_frame_ms" : {
+        "count" : 200,
+        "max" : 23.422625,
+        "p50" : 11.373708000000001,
+        "p95" : 16.253582999999999,
+        "p99" : 16.634374999999999
+      }
+    },
+    "start" : {
+      "inserted" : 200,
+      "place_ms" : 7.6336250000000003,
+      "processing_ms" : {
+        "count" : 200,
+        "max" : 15.237417000000001,
+        "p50" : 9.8012499999999996,
+        "p95" : 13.734083999999999,
+        "p99" : 14.873291
+      },
+      "to_frame_ms" : {
+        "count" : 200,
+        "max" : 26.768916000000001,
+        "p50" : 10.897083,
+        "p95" : 16.063292000000001,
+        "p99" : 16.521792000000001
+      }
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "1m-textkit": {
+    "runs": 5,
+    "first_paint_ms": 273.17,
+    "first_paint_range_ms": [
+      140.6,
+      288.6
+    ],
+    "memory_after_load_mb": 122.55,
+    "memory_after_scroll_mb": 126.7,
+    "jump_to_end_ms": 15.36,
+    "scroll_p50_ms": 16.67,
+    "scroll_p99_ms": 17.18,
+    "scroll_max_ms": 36.73,
+    "scroll_hitches": [
+      1,
+      2,
+      1,
+      1,
+      1
+    ],
+    "selection": {
+      "attachments_in_range": 1,
+      "copy_matches_source": true,
+      "first_difference": "",
+      "replace_works": true,
+      "rich_blocks_after_undo": 3,
+      "undo_restores": true
+    },
+    "typing_start": {
+      "p50": 9.85,
+      "p95": 13.73,
+      "p99": 14.67,
+      "max": 15.24,
+      "inserted": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "typing_middle": {
+      "p50": 10.23,
+      "p95": 13.69,
+      "p99": 14.67,
+      "max": 15.47,
+      "inserted": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "typing_end": {
+      "p50": 10.68,
+      "p95": 12.75,
+      "p99": 13.9,
+      "max": 15.72,
+      "inserted": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    }
+  },
+  "1m-web": {
+    "runs": 5,
+    "first_paint_ms": 356.62,
+    "first_paint_range_ms": [
+      329.1,
+      415.3
+    ],
+    "memory_after_load_mb": 284.97,
+    "memory_after_scroll_mb": 640.41,
+    "jump_to_end_ms": 18,
+    "scroll_p50_ms": 17,
+    "scroll_p99_ms": 29,
+    "scroll_max_ms": 57.0,
+    "scroll_hitches": [
+      12,
+      11,
+      9,
+      10,
+      12
+    ],
+    "selection": {
+      "copyMatches": true,
+      "replaced": true,
+      "restored": true,
+      "richBlocksAfterUndo": 3,
+      "richBlocksBefore": 3
+    },
+    "typing_start": {
+      "p50": 9.89,
+      "p95": 12.02,
+      "p99": 13.87,
+      "max": 18.14,
+      "inserted": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "typing_middle": {
+      "p50": 8.13,
+      "p95": 11.02,
+      "p99": 13.44,
+      "max": 28.9,
+      "inserted": [
+        200,
+        200,
+        200,
+        200,
+        200
+      ]
+    },
+    "typing_end": {
+      "p50": 8.55,
+      "p95": 11.25,
+      "p99": 16.62,
+      "max": 27.62,
+      "inserted": [
+        157,
+        200,
+        200,
+        200,
+        200
+      ]
+    }
+  },
+  "5m-textkit": {
+    "runs": 2,
+    "first_paint_ms": 515.25,
+    "first_paint_range_ms": [
+      514.7,
+      515.8
+    ],
+    "memory_after_load_mb": 134.24,
+    "memory_after_scroll_mb": 140.48,
+    "jump_to_end_ms": 26.83,
+    "scroll_p50_ms": 16.67,
+    "scroll_p99_ms": 17.23,
+    "scroll_max_ms": 38.92,
+    "scroll_hitches": [
+      2,
+      2
+    ],
+    "selection": {
+      "attachments_in_range": 1,
+      "copy_matches_source": true,
+      "first_difference": "",
+      "replace_works": true,
+      "rich_blocks_after_undo": 3,
+      "undo_restores": true
+    },
+    "typing_start": {
+      "p50": 10.2,
+      "p95": 12.95,
+      "p99": 14.07,
+      "max": 15.02,
+      "inserted": [
+        200,
+        200
+      ]
+    },
+    "typing_middle": {
+      "p50": 10.09,
+      "p95": 13.34,
+      "p99": 14.13,
+      "max": 15.37,
+      "inserted": [
+        200,
+        200
+      ]
+    },
+    "typing_end": {
+      "p50": 10.92,
+      "p95": 12.64,
+      "p99": 13.52,
+      "max": 13.92,
+      "inserted": [
+        200,
+        200
+      ]
+    }
+  },
+  "5m-web": {
+    "runs": 2,
+    "first_paint_ms": 410.57,
+    "first_paint_range_ms": [
+      395.5,
+      425.7
+    ],
+    "memory_after_load_mb": 359.64,
+    "memory_after_scroll_mb": 1595.88,
+    "jump_to_end_ms": 8.5,
+    "scroll_p50_ms": 17.0,
+    "scroll_p99_ms": 33.0,
+    "scroll_max_ms": 86.5,
+    "scroll_hitches": [
+      12,
+      14
+    ],
+    "selection": {
+      "copyMatches": true,
+      "replaced": true,
+      "restored": true,
+      "richBlocksAfterUndo": 3,
+      "richBlocksBefore": 3
+    },
+    "typing_start": {
+      "p50": 10.6,
+      "p95": 13.19,
+      "p99": 15.21,
+      "max": 19.47,
+      "inserted": [
+        200,
+        200
+      ]
+    },
+    "typing_middle": {
+      "p50": 12.89,
+      "p95": 20.56,
+      "p99": 29.22,
+      "max": 39.52,
+      "inserted": [
+        200,
+        200
+      ]
+    },
+    "typing_end": {
+      "p50": 16.46,
+      "p95": 26.34,
+      "p99": 57.98,
+      "max": 73.88,
+      "inserted": [
+        200,
+        200
+      ]
+    }
+  }
+}

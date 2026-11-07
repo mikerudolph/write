@@ -1,0 +1,13 @@
+[package]
+name = "block_model"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+loro = "1.17"
+serde_json = "1"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
